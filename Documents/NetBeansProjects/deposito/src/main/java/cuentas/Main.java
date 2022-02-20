@@ -1,3 +1,11 @@
+/**
+ *La clase Main desde la cual se ejecuta todo. u
+ * 
+ * @author Iuliia Tuyev Tuyeva 
+ * @version 2.1
+ * @since 18/02/2022
+ */
+
 package cuentas;
 
 
@@ -10,7 +18,11 @@ public class Main {
         double saldoActual;
         operativa_cuenta(1);
     }
-
+/**
+ * El método creado con el uso de refactor, no devuelve nada, lanza excepciones
+ * @param cantidad tiene el parametro que hemos puesto gracias al uso de 
+ * refactor
+ */
     public static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
